@@ -1,2 +1,2 @@
 # RAER_Craig
-IGVC Auto-Nave vehicle Craig
+IGVC Auto-Nav vehicle Craig
