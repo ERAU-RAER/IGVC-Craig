@@ -1,4 +1,4 @@
-# IGVC Craig
+# Craig's Depo
 
 A collection of [ROS2](https://docs.ros.org/en/humble/index.html) packages that make up the autonomous vehicle Craig. This repo *could* be cloned directly into the source folder of a workspace to produce the full functionality of Craig. 
 This repo also serves as a guide to developing and maintaining packages and working with ROS. This includes creating a workspace, packages, and best practices to developing a high-performance robot. This project uses the humble distrobution. Information about internal ROS functionality is still most available on official documentation: <https://docs.ros.org/en/humble/index.html>
