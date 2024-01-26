@@ -44,6 +44,14 @@ wsl --install -d <Distribution Name>
 ~~~
 and launched the same way as any application.  
 
+#### VSCode
+
+There exists a microsoft authored [ROS extention](vscode:extension/ms-iot.vscode-ros) that automatically sources the ROS includes like those shown below:
+~~~
+"/opt/ros/humble/include/**",
+"/home/user/dev/ros2_ws/install/turtlesim/include/**"
+~~~
+
 #### ROS Directory
 
 The source code of any ROS project is stored within a [Package](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Creating-Your-First-ROS2-Package.html). ROS is built so that you can seemlessly run any combination of packages at any time. Therefore each package contains it's own executables. To manage these executables and faciliate communication between them, Packages are stored in a [Workspace](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Creating-A-Workspace/Creating-A-Workspace.html).
